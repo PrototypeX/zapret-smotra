@@ -1,16 +1,19 @@
-# zapret-smotra
+# zapret-smotra v1.0
 Утилита для Windows позволяющая беспрепятственно получать доступ ко всем ресурсам SMOTRA.GAMES
 Запускать через ZAPRET-SMOTRA.cmd, перед запуском - убедитесь в том, что у Вас нет запущенных процессов или сервисов других zapret версий.
 
-Разлочено на текущий момент:
-SMOTRA.Games
-SMOTRArage.ru
-SMOTRAmta.ru
+# Разлочено на текущий момент
+
+SMOTRA.Games, SMOTRArage.ru, SMOTRAmta.ru (включая CDN, Трансляцию музыки, handshakes и т.д.)
 
 Discord (включая все сервисы)
+
 YouTube (включая все сервисы)
+
 Rockstargames (включая все сервисы)
+
 EpicGames (включая все сервисы)
+
 Steam (включая все сервисы)
 
 И другие сайты/сервисы, недоступные в Рунете.
