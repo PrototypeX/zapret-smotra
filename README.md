@@ -1,4 +1,4 @@
-# zapret-smotra v1.0
+# zapret-smotra
 Утилита для Windows позволяющая беспрепятственно получать доступ ко всем ресурсам SMOTRA.GAMES
 Запускать через **ZAPRET-SMOTRA.cmd**
 
