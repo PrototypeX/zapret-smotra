@@ -1,5 +1,5 @@
 start "zapret smotra: http,https,quic" /min "%~dp0winws.exe" ^
---wf-tcp=80,443,22006,23006,24006 --wf-udp=443,22005,50000-50099 ^
+--wf-tcp=80,443,22006,23006,24006 --wf-udp=443,22005,27120,50000-50099 ^
 --filter-tcp=80 --dpi-desync=fake,fakedsplit --dpi-desync-autottl=2 --dpi-desync-fooling=md5sig --new ^
 --filter-tcp=443 --hostlist="%~dp0files\list-80443.txt" --dpi-desync=fake,multidisorder --dpi-desync-split-pos=1,midsld --dpi-desync-repeats=11 --dpi-desync-fooling=md5sig --dpi-desync-fake-tls-mod=rnd,dupsid,sni=www.google.com --new ^
 --filter-tcp=443 --dpi-desync=fake,multidisorder --dpi-desync-split-pos=midsld --dpi-desync-repeats=6 --dpi-desync-fooling=badseq,md5sig --new ^
@@ -11,3 +11,4 @@ start "zapret smotra: http,https,quic" /min "%~dp0winws.exe" ^
 --filter-tcp=24006 --dpi-desync=fake,fakedsplit --dpi-desync-autottl=2 --dpi-desync-fooling=md5sig --new ^
 --filter-tcp=2052 --dpi-desync=fake,fakedsplit --dpi-desync-autottl=2 --dpi-desync-fooling=md5sig --new ^
 --filter-udp=22005 --dpi-desync=fake --dpi-desync-repeats=11 --new
+--filter-udp=27120 --dpi-desync=fake --dpi-desync-repeats=11 --new
