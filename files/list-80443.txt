@@ -67,3 +67,5 @@ fastly-download.epicgames.com
 store.epicgames.com
 launcher.store.epicgames.com
 js.hcaptcha.com
+rage.mp
+rgsvc.io
